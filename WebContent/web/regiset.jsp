@@ -212,8 +212,8 @@
 		        },
 		        messages: {
 		            uname: {
-		                required: '学号不能为空',
-		                remote: '学号已存在',
+		                required: '用户名不能为空',
+		                remote: '用户名已存在',
 		            },
 		            upwd: {
 		                required: '密码不能为空',
