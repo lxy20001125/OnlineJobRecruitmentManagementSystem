@@ -35,7 +35,7 @@
 					<div class="inner">
 						<div class="text">
 							<h1>
-								评价企业公司
+								评价面试结果
 							</h1>
 
 						</div>

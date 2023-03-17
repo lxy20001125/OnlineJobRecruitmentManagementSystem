@@ -16,7 +16,7 @@
 			<div>
 			 
 			</div>
-			<div id="system_title">网上求职招聘系统</div>
+			<div id="system_title">校园招聘智慧管理系统</div>
 		</div>
 		<div id="rinfo">
 			当前用户：

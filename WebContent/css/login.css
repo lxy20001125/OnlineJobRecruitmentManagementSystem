@@ -3,7 +3,7 @@
 * { margin:0; padding:0; list-style:none;
 }
 .clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
-.clearfix{*+height:1%;}
+.clearfix{*+:height 1%;}
 html, body { 
 	font:normal 14px "Microsoft YaHei";
 	font-family: "Microsoft YaHei","微软雅黑","sans-serif" ;

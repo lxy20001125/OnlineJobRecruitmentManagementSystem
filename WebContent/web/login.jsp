@@ -47,7 +47,7 @@
 						<!--注册-->
 						<div class="sign-form sign-register" style="display: block;">
 							<h3 class="title">
-								网上求职招聘登录
+								校园招聘智慧管理系统登录
 							</h3>
 							<div id="alert-error" class="tip-error"></div>
 							<form id="loginForm"
@@ -114,10 +114,10 @@
 				<!-- 主题背景-pc -->
 				<div class="theme">
 					<div class="title">
-						海量优质人才，在线约面
+						海量优质公司，在线约面
 					</div>
 					<div class="desc">
-						找人才就上企业直聘
+						校招就来校园招聘智慧管理系统
 					</div>
 					<img src="<%=path%>/web/images/banner.png" >
 				</div>

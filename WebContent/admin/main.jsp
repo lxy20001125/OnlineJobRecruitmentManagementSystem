@@ -14,7 +14,7 @@
 <body>
 <body>
 
-	<div class="page-content">欢迎使用管理系统</div>
+	<div class="page-content">欢迎使用校园招聘智慧管理系统</div>
 
 
 

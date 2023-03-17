@@ -241,7 +241,7 @@ public class UserController {
 		user.setCatelogVO(catelogVO);
 		request.getSession().setAttribute("user", user);
 		request.setAttribute("message", "操作成功");
-		request.setAttribute("path", "/web/user/user_info.jsp");
+		request.setAttribute("path", "web/user/user_info.jsp");
 		return "/common/succeed.jsp";
 	}
 	
@@ -266,7 +266,7 @@ public class UserController {
 	
 	/**
 	 * 更新用户密码
-	 * @param
+	 * @param user
 	 * @param request
 	 * @return
 	 * @throws Exception
@@ -278,9 +278,8 @@ public class UserController {
 		user.setUpwd(upwd);
 		userService.updateUser(user);
 		request.getSession().setAttribute("user", user);
-		
 		request.setAttribute("message", "操作成功");
-		request.setAttribute("path", "/web/user/user_upwd.jsp");
+		request.setAttribute("path", "web/user/user_upwd.jsp");
 		return "/common/succeed.jsp";
 	}
 	

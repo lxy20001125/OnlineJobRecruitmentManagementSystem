@@ -53,7 +53,7 @@
 							<h4 class="panel-title">
 								<a data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
 									<span class="glyphicon glyphicon-th"></span>
-									人信息管理
+									人员信息管理
 								</a>
 							</h4>
 						</div>
@@ -230,31 +230,6 @@
 						</div>
 					</div>
 					</c:if>
-					
-					
-					<!--<div class="panel panel-inner">
-						<div class="panel-heading panel-heading-self" role="tab" id="heading6">
-							<h4 class="panel-title">
-								<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="false" aria-controls="collapse6">
-									<span class="glyphicon glyphicon-th"></span>
-									企业管理
-								</a>
-							</h4>
-						</div>
-						<div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
-							<div class="list-group list-group-self">
-							    <a href="<%=path%>/company_toInfo.action" target="appiframe" class="list-group-item">
-									<span class="glyphicon glyphicon-menu-right"></span>
-									企业介绍
-								</a>
-							</div>
-						
-						</div>
-					</div>
-						-->
-				
-				
-				
 				</div>
 
 			</div>

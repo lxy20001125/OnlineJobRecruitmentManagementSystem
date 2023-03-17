@@ -73,7 +73,7 @@
 							<div class="change-pwd-content">
 								<form autocomplete="off" method="post" id="addForm"
 									class="account-form ui-form ui-form-label-right ui-form-asterisk"
-									style="">
+									style="" action="<%=path%>/user_upwd.action">
 									<div class="form-item">
 										<div class="item-label" style="width: 160px;">
 											当前登录的账号

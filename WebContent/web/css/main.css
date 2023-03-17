@@ -119,17 +119,17 @@ a:active, a:focus, a:hover, button, input, textarea {
 }
 .logo {
     float: left;
-    padding: 6px 0 0 0;
+    padding: 6px 0 0 0;/*6 0 0 0*/
 }
 #header a {
     color: #fff;
 }
 .logo a {
     display: block;
-    width: 110px;
-    height: 36px;
-    background: url(../images/logo-2x.png) 3px 7px no-repeat;
-    background-size: 105px 19px;
+    width: 110px;/*110*/
+    height: 60px;/*36*/
+    background: url(../images/logo-2x.png) no-repeat;/*3,7*/
+    background-size: 105px 40px;/*105,19*/
 }
 .user-nav {
     float: right;

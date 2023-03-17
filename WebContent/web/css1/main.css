@@ -1,3 +1,4 @@
+/*
 ::selection {
 	background-color: rgba(13, 173, 81, 0.2);
 	color: #333
@@ -881,9 +882,9 @@
 	height: 66px;
 	display: inline-block;
 	float: left;
-	background-image: url(../images/spriteV2_new.png?index=20170526);
-	background-image: -webkit-image-set(url(../images/spriteV2_new.png?index=20170526) 1x
-		, url(../images/spriteV2_new@2x.png?index=20170526) 2x);
+	background-image: url(../images/line-sec.png);
+	background-image: -webkit-image-set(url(../images/line-sec.png) 1x
+		, url(../images/line-sec.png) 2x);
 	background-position: 10px -365px
 }
 
@@ -2669,4 +2670,4 @@ body {
 	.app_daoliu_layer {
 		display: none
 	}
-}
+}*/

@@ -11,7 +11,7 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta http-equiv="Content-language" content="zh-CN">
-		<title>网上求职招聘</title>
+		<title>校园招聘智慧管理系统</title>
 		<link href="<%=path%>/favicon.ico" type="image/x-icon"
 			rel="shortcut icon" />
 		<link rel="stylesheet" href="<%=path%>/web/css/main.css" />

@@ -6,7 +6,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <script language=JavaScript>
 	function logout() {
-		if (confirm("您确定要退出 网上求职招聘平台吗？")) {
+		if (confirm("您确定要退出 校园招聘智慧管理系统吗？")) {
 			top.location = "<%=path%>/user_loginout.action";
 			return true;
 		}
@@ -75,12 +75,7 @@
 				<li <c:if test="${top_index==4}">class="cur"</c:if>>
 					<a href="<%=path%>/gonggao_list_web.action">资讯</a>
 				</li>
-				<!--
-				<li <c:if test="${top_index==5}">class="cur"</c:if>>
-					<a class="nav-find" 
-						href="<%=path%>/company_toView.action">企业概况</a>
-				</li>
-				-->
+
 				<li <c:if test="${top_index==6}">class="cur"</c:if>>
 					<a onclick="tiao(3)" >面试评价</a>
 				</li>

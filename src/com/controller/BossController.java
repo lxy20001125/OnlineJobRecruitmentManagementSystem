@@ -187,7 +187,7 @@ public class BossController {
 		bossService.updateBoss(boss);
 		request.getSession().setAttribute("boss", boss);
 		request.setAttribute("message", "操作成功");
-		request.setAttribute("path", "/admin/boss/boss_upwd.jsp");
+		request.setAttribute("path", "admin/boss/boss_upwd.jsp");
 		return "/common/succeed.jsp";
 	}
 	
@@ -206,7 +206,7 @@ public class BossController {
 		bossService.updateBoss(boss);
 		request.getSession().setAttribute("boss", boss);
 		request.setAttribute("message", "操作成功");
-		request.setAttribute("path", "/admin/boss/boss_info.jsp");
+		request.setAttribute("path", "admin/boss/boss_info.jsp");
 		return "/common/succeed.jsp";
 	}
 }
