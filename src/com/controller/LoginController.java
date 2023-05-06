@@ -20,6 +20,7 @@ import com.service.UserService;
  * 登录Controller控制类
  */
 @Controller
+
 public class LoginController {
 	/**
 	 * 注入Service

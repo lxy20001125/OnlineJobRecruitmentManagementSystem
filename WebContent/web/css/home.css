@@ -46,7 +46,7 @@ body {
 }
 .list-news .img-wrap {
     float: left;
-    width: 284px;
+    width: 70px;
     height: 156px;
     position: relative;
 }
@@ -78,7 +78,7 @@ body {
     line-height: 20px;
 }
 .list-news .text {
-    margin-left: 330px;
+    margin-left: 15px;
 }
 .list-news .text-title {
     font-size: 20px;

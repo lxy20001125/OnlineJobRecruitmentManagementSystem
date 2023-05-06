@@ -30,10 +30,12 @@
 					<img
 						src="<%=path%>/web/images/fast-reg.png"
 						class="icon-tip"/>
-					<div class="step-form">
-                        <img src="<%=path%>/web/images/fast-reg-text.png">
-                        <a href="<%=path%>/user_toUpdate_web.action" class="btn btn-dialog-upload btn-to-upload" >制作你的简历</a>
-                	</div>
+					<c:if test="${sessionScope.user.name!=null}">
+						<div class="step-form">
+                       		<img src="<%=path%>/web/images/fast-reg-text.png">
+                       		<a href="<%=path%>/user_toUpdate_web.action" class="btn btn-dialog-upload btn-to-upload" >制作你的简历</a>
+                		</div>
+					</c:if>
 				</div>
 			</div>
 			<div class="column-search-panel">
@@ -57,9 +59,8 @@
 						</div>
 						<div class="search-hot">
 							<b>热门职位:</b>
-							<a href="<%=path%>/job_list_web.action?catelogid=14"><b>JAVA开发</b></a>
-							<a href="<%=path%>/job_list_web.action?catelogid=13">UI设计师</a>
-
+							<a href="<%=path%>/job_list_web.action?catelogid=13"><b>JAVA开发</b></a>
+							<a href="<%=path%>/job_list_web.action?catelogid=10">运维工程师</a>
 						</div>
 					</div>
 				</div>

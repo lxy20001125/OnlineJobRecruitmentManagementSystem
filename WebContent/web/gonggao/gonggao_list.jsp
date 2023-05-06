@@ -47,9 +47,9 @@
 							<c:forEach items="${list}" var="gonggao" varStatus="status">
 							<li>
 								<div class="img-wrap">
-									<a href="<%=path%>/gonggao_toView.action?id=${gonggao.id}" class="img"> 
-										<img src="<%=path%>/${gonggao.tupian}" /> 
-									</a>
+									<%--<a href="<%=path%>/gonggao_toView.action?id=${gonggao.id}" class="img">
+										&lt;%&ndash;<img src="<%=path%>/${gonggao.tupian}" /> &ndash;%&gt;
+									</a>--%>
 									<a href="#" class="badge"> ${gonggao.gtype} </a>
 								</div>
 								<div class="text">

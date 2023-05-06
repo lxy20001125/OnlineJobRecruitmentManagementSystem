@@ -73,9 +73,9 @@
 									</div>
 								</div>
 							</div>
-							<div class="row rowmargin">
+							<%--<div class="row rowmargin">
 								<div class="col-sm-7">
-									<div class="form-group">
+									&lt;%&ndash;<div class="form-group">
 										<label class="col-sm-3 control-label">
 											<font color="red">*</font>图片
 										</label>
@@ -85,9 +85,9 @@
 												type="text" tip="请上传文件" />
 											<input type="button" value="上传" onclick="up('tupian',0)" />
 										</div>
-									</div>
+									</div>&ndash;%&gt;
 								</div>
-							</div>
+							</div>--%>
 							<div class="row rowmargin">
 								<div class="col-sm-7">
 									<div class="form-group">
@@ -96,7 +96,8 @@
 										</label>
 										<div class="col-sm-9 form-inline">
 											<textarea rows="5" cols="80" id="jianjie" name="jianjie"
-												class="form-control" tip="请输入简介" maxlength="200"></textarea>
+												class="form-control" tip="请输入简介" maxlength="200" style="white-space:pre-wrap;">
+											</textarea>
 										</div>
 									</div>
 								</div>
@@ -109,10 +110,17 @@
 										<label class="col-sm-3 control-label">
 											<font color="red">*</font>描述
 										</label>
-										<div class="col-sm-9 form-inline">
+										<%--<div class="col-sm-9 form-inline">
 											<script id="container" type="text/plain"
 												style="width:850px;height:300px;"></script>
-											<input id="miaoshu" name="miaoshu" type="hidden" />
+
+										</div>--%>
+										<div class="col-sm-9 form-inline">
+											<%--<script id="container" type="text/plain"
+													style="width:850px;height:300px;"></script>--%>
+											<textarea rows="5" cols="80" id="miaoshu" name="miaoshu"
+													  class="form-control" tip="请输入简介" maxlength="200" style="white-space:pre-wrap;">
+											</textarea>
 										</div>
 									</div>
 								</div>
@@ -139,18 +147,18 @@
 	</body>
 	<script type="text/javascript">
 	$(document).ready(function() {
-	    var ue = UE.getEditor('container');
+	    /*var ue = UE.getEditor('container');*/
 	    $("#rebackBtn").click(function() {
 	        window.history.go( - 1);
 	    });
 	    $("#addForm").validate({
 	        submitHandler: function(form) { //验证通过后的执行方法
-	            var htmlv = ue.getContent();
+	            /*var htmlv = ue.getContent();*/
+				var htmlv = document.getElementById("miaoshu").value;
 	            if (htmlv == null || htmlv == '') {
 	                alert("内容不能为空");
 	                return false;
 	            }
-	            document.getElementById("miaoshu").value = htmlv;
 	            form.submit();
 	        },
 	        rules: {
@@ -160,9 +168,9 @@
 	            gtype: {
 	                required: true,
 	            },
-	            tupian:{
+	            /*tupian:{
                     required:true,
-				},
+				},*/
 				jianjie:{
 				    required:true,
 				},
@@ -174,9 +182,9 @@
 	            name: {
 	                required: '咨询标题不能为空',
 	            },
-	            name: {
+	            /*name: {
 	                required: '图片不能为空',
-	            },
+	            },*/
 	            jianjie: {
 	                required: '简介不能为空',
 	            },
@@ -189,7 +197,7 @@
 	        }
 	    });
 	});
-	var pop;
+	/*var pop;
 	function up(fname, type) {
 	    pop = new Popup({
 	        contentType: 1,
@@ -204,6 +212,6 @@
 	}
 	function popupClose() {
 	    pop.close();
-	}
+	}*/
 </script>
 </html>

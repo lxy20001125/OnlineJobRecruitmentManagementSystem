@@ -64,7 +64,7 @@
 									</label>
 									<div class="u-select">
 										<input type="text" class="u-select-selected"
-											name="uname" id="uname" maxlength="20" placeholder="长度为8-16位字母、数字或符号" />
+											name="uname" id="uname" maxlength="20" placeholder="请输入字母、数字或符号" />
 									</div>
 								</div>
 	
@@ -86,7 +86,7 @@
 									</label>
 									<div class="u-select">
 										<input type="password" id="upwd"
-											class="u-select-selected" name="upwd" maxlength="12" placeholder="长度为6-12位字母、数字或符号"/>
+											class="u-select-selected" name="upwd" maxlength="12" placeholder="请输入字母、数字或符号"/>
 									</div>
 								</div>
 	

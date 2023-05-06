@@ -67,21 +67,23 @@
 											placeholder="密码" id="upwd" id="upwd"> 
 									</span>
 									
-								</div><!--
+								</div>
 
-								<div class="form-row">
+								<%--<div class="form-row">
 									<span class="ipt-wrap"> 
-										<i class="icon-sign-sms"></i> <input
+										<i class="icon-sign-sms"></i>
+										<input
 											type="text" class="ipt ipt-sms required" ka="signup-sms"
-											placeholder="短信验证码" name="phoneCode" maxlength="6"> <input
-											type="hidden" name="smsType" value="2">
+											placeholder="短信验证码" name="phoneCode" maxlength="6">
+										<input type="hidden" name="smsType" value="2">
+
 										<button type="button" class="btn btn-sms"
 											data-url="/wapi/zppassport/send/smsCodeV2">
 											发送验证码
 										</button> </span>
-								</div>
+								</div>--%>
 								
-								--><div class="form-row">
+								<div class="form-row">
 									<span class="ipt-wrap"> 
 										<i class="icon-sign-sms"></i> 
 										<input id="vcode" type="text" class="ipt ipt-sms required" 
